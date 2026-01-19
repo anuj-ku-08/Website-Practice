@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        #name{
+            font-style: oblique;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;
+            padding: 0%;
+        }
+
+        #amount{
+            color:rgb(230, 21, 21);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande'
+            , 'Lucida Sans', Arial, sans-serif;
+            margin: auto;
+            padding: 0%;
+        }
+
+        .discription{
+            font-family:monospace;
+            float: left;
+            text-align: left;
+        }
+
+        #myimg{
+            display:flexbox;
+            float: right;
+            margin-left: auto;
+        }
+
+        #mybtn{
+            background-color: rgb(228, 68, 56);
+            font-style: oblique;
+            font-size: 150%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;
+            padding: 5%;
+            box-sizing:border-box;
+            align-items: center;
+            justify-content: center;
+            
+            margin: auto;
+            padding: 0.5%;
+            position:relative;
+            border-style: groove;
+            border-top-left-radius: 0.3cm;
+            border-top-right-radius: 0.3cm;
+            border-bottom-left-radius: 0.3cm;
+            border-bottom-right-radius: 0.3cm;
+
+
+
+        }
+        
+        #mybtn:hover{
+            background-color: rgb(67, 178, 230);
+            transition: background-color 0.3s ease;
+            animation:cubic-bezier(0.075, 0.82, 0.165, 1);
+       
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+    <h1 id="name"><b>The Chronos S - Model</b></h1><br>
+    <h2 id="amount"><b>$499.99</b></h2><br>
+    <p class="discription">Experience precision engineering and timeless design. The Chronos S-Model features a sapphire crystal face, stainless steel case, and a self-winding mechanism that stands the test of time.</p>
+    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000" alt="The Watch" width="400" height="300" id="myimg"><br>
+    </main>
+    <button type="button" id="mybtn" style="color: azure;">Add to Cart</button>
+</body>
+</html>
